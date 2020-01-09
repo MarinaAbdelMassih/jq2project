@@ -1,0 +1,180 @@
+body{
+    overflow: hidden;
+}
+.container-options{
+  
+    position: fixed;
+    top:90px;
+    left: 0px;
+    z-index: 99;
+   
+}
+.option-box{  background-color: #fff;padding: 15px;border: solid 2px black;}
+.color-item{width: 28px;
+height: 28px;
+background-color: #ff206e;
+border-radius:5px;
+cursor: pointer;
+
+display: inline-block;padding: 10px; }
+.container-options i{background-color: black;
+color: #fff;padding: 10px;
+cursor: pointer;
+}
+#loading{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #555;
+    z-index: 9999999;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff !important;
+}
+.bg-black
+{
+    background-color: black;
+    padding: 0px 100px;
+
+}
+#btnUp
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
+    display: none;
+}
+
+nav
+{
+    transition: padding 1s , background-color 1s;
+}
+
+header
+{
+    height: 620px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.header-caption 
+{
+    color: #fff;
+}
+.header-caption h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.header-caption a
+{
+    color: #ff206e;   
+}
+.social-icons
+{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.social-icons i
+{
+    color: #fff;
+    padding: 10px;
+    border:solid 1px rgba(255,255,255,.25);
+    border-radius: 50%;
+}
+#about
+{
+    background-image: url(../images/light_dot.jpg);
+}
+.title
+{
+    position: relative;
+    font-weight: 800;
+}
+.title h2
+{
+    color: #f1f1f1;
+    font-size: 5rem;
+    font-weight: 800;
+
+}
+.title h3
+{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+
+.image-me
+{
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+#about h6
+{
+    color: #ff206e;
+}
+#testimonials
+{
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-indicators
+{
+    position: static;
+}
+.carousel-indicators li
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+.carousel-item img
+{
+    width: 85px;
+  
+}
+
+
+.carousel-item h6
+{
+    color: #555;
+    position: relative;
+}
+.carousel-item h6::after
+{
+
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 47%;
+    width:6%;
+    height: 2px;
+    background-color: #ff206e;
+    transition: width 1s , left 1s;
+    
+}
+
+
+.carousel-item:hover  h6::after
+{
+    width:10%;
+    left: 45%;
+
+   
+}
+
+#profile
+{
+    font-family: 'segoe ui light';
+}
